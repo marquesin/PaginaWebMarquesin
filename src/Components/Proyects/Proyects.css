@@ -1,15 +1,18 @@
 .containerProyects {
-    background-color: rgba(196, 196, 196, 1);
+    background-color: rgba(222, 179, 127, 1);
     height: 1472px;
+    /* position: absolute; */
+    width: 100%;
 }
 
 .titleProyects {
     font-weight: 400;
     font-size: 36px;
-    background-color: rgba(196, 196, 196, 1);
+    background-color: rgba(222, 179, 127, 1);
     margin-top: 0;
     padding-top: 5%;
     padding-bottom: 2%;
+    z-index: 15;
 }
 
 .imageStore {
