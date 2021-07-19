@@ -1,0 +1,63 @@
+.home {
+    background-color: rgba(242, 242, 242, 1);
+    height: 680px;
+    /* border: solid; */
+    display: flex;
+}
+
+.containerPresentacion {
+    margin-top: 10%;
+    margin-left: auto;
+    max-width: 60%;
+}
+
+.titleHome {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    line-height: 100%;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.parraHome {
+    width: 493px;
+    height: 150px;
+    font-weight: 400;
+    margin-top: 10%;
+
+}
+
+.iconCont {
+    width: 37px;
+    height: 37px;
+    background-color: gray;
+}
+
+.containerFoto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkContactoHome {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.containerVectorHome {
+    position: absolute;
+    left: 0;
+    margin-top: 25%;
+}
+
+.vector3 {
+    position: absolute;
+}
+
+.vector4 {
+    position: absolute;
+    z-index: 1;
+}

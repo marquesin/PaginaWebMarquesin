@@ -1,0 +1,38 @@
+.header {
+    background-color: rgba(242, 242, 242, 1);
+    /* border: solid; */
+    display: flex;
+    height: 44px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 100%;
+    vertical-align: Top;
+    justify-content: space-around;
+}
+
+.containerNombre {
+    margin-left: auto;
+}
+
+.containerAnchors {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+
+.containersVectorHeader {
+    margin-left: 2%;
+}
+
+.vector1 {
+    position: relative;
+}
+
+.vector2 {
+    position: absolute;
+    right: 4%;
+    top: 5%;
+}

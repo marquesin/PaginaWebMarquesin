@@ -1,0 +1,50 @@
+.containerProyects {
+    background-color: rgba(196, 196, 196, 1);
+    height: 1472px;
+}
+
+.titleProyects {
+    font-weight: 400;
+    font-size: 36px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.imageStore {
+    width: 1000px;
+}
+
+.imagePod {
+    width: 600px;
+}
+
+.imageHoteles {
+    width: 700px;
+}
+
+.imageGifos {
+    width: 500px;
+    margin: auto;
+}
+
+.imageStore,
+.imagePod,
+.imageHoteles,
+.imageGifos {
+    margin: auto;
+}
+
+/* .proyecFila1 {} */
+
+.proyecFila2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proyecFila3 {
+    margin-top: 5%;
+
+}
