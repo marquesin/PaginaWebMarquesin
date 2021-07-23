@@ -1,8 +1,11 @@
 .home {
     background-color: rgba(242, 242, 242, 1);
-    height: 680px;
+    height: 100vh;
     /* border: solid; */
     display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .containerPresentacion {
@@ -53,9 +56,9 @@
     margin-top: 25%;
 }
 
-.vector3 {
-    position: absolute;
-}
+/* .vector3 {
+    /* position: absolute; */
+/* }  */
 
 .vector4 {
     position: absolute;

@@ -2,9 +2,9 @@ import React from "react";
 import "./Skills.css";
 export default function Skills() {
   return (
-    <section>
+    <section className="skills">
       <div className="conteinerItemsPro">
-        <h2 className="itemConocimiento">Front-end:</h2>
+        <h2 className="itemConocimientoTitle">Front-end:</h2>
         <div className="conteinerItemConocimiento">
           {" "}
           <h4 className="itemConocimiento">HTML5 </h4>
@@ -28,7 +28,7 @@ export default function Skills() {
         </div>
       </div>
       <div className="conteinerItemsOtros">
-        <h2 className="itemConocimiento">Otros:</h2>
+        <h2 className="itemConocimientoTitle">Otros:</h2>
         <div className="conteinerItemConocimiento">
           <h4 className="itemConocimiento">Ingles</h4>
         </div>

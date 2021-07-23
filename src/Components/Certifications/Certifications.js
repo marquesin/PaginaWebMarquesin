@@ -6,16 +6,16 @@ export default function Certifications() {
   return (
     <section className="containerCertification">
       <CV />
-      <img src={vector5} alt="vector5" className="vector5" />
-      <h3>Certifición</h3>
-      <div className="listaCertificaciones">
-        <ul>
-          <li className="itemListaCe">Desarrollo Front-End ACAMICA</li>
-          <li className="itemListaCe">JAVASCRIPT EscuelaDevRock</li>
-          <li className="itemListaCe">ReactJS EscuelaDevRock </li>
-          <li className="itemListaCe">FireBase EscuelaDevRock</li>
-          <li className="itemListaCe">Curso Linkedin</li>
-        </ul>
+      {/* <img src={vector5} alt="vector5" className="vector5" /> */}
+      <div className="containerCertificacion">
+        <h3 className="titleCertificacion">Certifición</h3>
+        <div className="listaCertificaciones">
+          <p className="itemListaCe">Desarrollo Front-End ACAMICA</p>
+          <p className="itemListaCe">JAVASCRIPT EscuelaDevRock</p>
+          <p className="itemListaCe">ReactJS EscuelaDevRock </p>
+          <p className="itemListaCe">FireBase EscuelaDevRock</p>
+          <p className="itemListaCe">Curso Linkedin</p>
+        </div>
       </div>
     </section>
   );

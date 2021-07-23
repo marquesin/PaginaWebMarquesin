@@ -1,8 +1,17 @@
 .containerProyects {
     background-color: rgba(222, 179, 127, 1);
-    height: 1472px;
-    /* position: absolute; */
+    height: 1050px;
+    z-index: 100;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerAboluteProyects{
+    position: absolute;
+    height: 1050px;
+    z-index: 100;
+    width: 70%;
+    
 }
 
 .titleProyects {
@@ -14,37 +23,44 @@
     padding-bottom: 2%;
     z-index: 15;
 }
+.imagePetro{
+    width: 50%;
+}
 
 .imageStore {
-    width: 1000px;
+    width: 35%;
 }
 
 .imagePod {
-    width: 600px;
+    width: 40%;
 }
 
 .imageHoteles {
-    width: 700px;
+    width: 40%;
 }
 
 .imageGifos {
-    width: 500px;
-    margin: auto;
+   width: 50%;
 }
 
-.imageStore,
+/* .imageStore,
 .imagePod,
 .imageHoteles,
 .imageGifos {
     margin: auto;
+} */
+
+.proyecFila1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* .proyecFila1 {} */
-
 .proyecFila2 {
-    margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 5%;
 }
 
 .proyecFila3 {
