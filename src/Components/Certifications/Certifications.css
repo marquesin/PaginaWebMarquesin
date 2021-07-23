@@ -1,7 +1,26 @@
 /* .containerCertification{
     
 } */
+
+
+
+/* --------------DESCARGAR CV --------------------- */
 .containerCV{
     height: 159px;
     background-color: rgba(78, 101, 91, 1);
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleCV{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+.buttonCV{
+    width: 350px;
+    height: 50px;
+    font-weight:400;
+    font-size: 15px;
 }
