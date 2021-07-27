@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 export default function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id="Conocimientos">
       <div className="conteinerItemsPro">
         <h2 className="itemConocimientoTitle">Front-end:</h2>
         <div className="conteinerItemConocimiento">

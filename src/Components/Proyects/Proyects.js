@@ -8,7 +8,7 @@ import petro from "./images/proyectoPetro.png";
 
 export default function Proyects() {
   return (
-    <section className="containerProyects">
+    <section className="containerProyects" id="Proyectos">
       <div className="containerAboluteProyects">
         <h2 className="titleProyects">Proyectos</h2>
         <div className="proyecFila1">

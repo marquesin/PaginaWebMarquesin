@@ -1,11 +1,15 @@
 import React from "react";
 import "./Contacts.css";
+import foto from "./Images/Fotografia.jpeg";
 
 export default function Contacts() {
   return (
-    <div className="containerContacto">
+    <div className="containerContacto" id="Contactame">
       <h3 className="contacto">Contactame</h3>
-      <div className="contactoFoto">140*140</div>
+      <div className="contactoFoto">
+        {" "}
+        <img src={foto} alt="foto" className="fotografia" />
+      </div>
       <a href="mailto:marquesinro@gmail.com" className="mailtoC">
         marquesinro@gmail.com
       </a>

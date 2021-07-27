@@ -1,10 +1,11 @@
 import React from "react";
 import "./Certifications.css";
 import vector5 from "./images/Vector5.svg";
+import cv from "./CV_Marquesin_Rocio.pdf";
 
 export default function Certifications() {
   return (
-    <section className="containerCertification">
+    <section className="containerCertification" id="Certificaciones">
       <CV />
       {/* <img src={vector5} alt="vector5" className="vector5" /> */}
       <div className="containerCertificacion">
@@ -25,7 +26,9 @@ export function CV() {
   return (
     <div className="containerCV">
       <h4 className="titleCV">Descarga mi hoja de vida!</h4>
-      <button className="buttonCV">DescargarCVMarquesinRocio.pdf</button>
+      <a href={cv} download="CV_Marquesin_Rocio">
+        <button className="buttonCV">Descargar CV_Marquesin_Rocio.pdf</button>
+      </a>
     </div>
   );
 }

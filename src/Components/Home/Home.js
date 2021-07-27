@@ -5,7 +5,7 @@ import vector4 from "./images/Vector4.svg";
 
 export default function Home() {
   return (
-    <section className="home">
+    <section className="home" id="Home">
       <div className="containerPresentacion">
         <h1 className="titleHome">Hola! Yo soy Rocio</h1>
         <p className="parraHome">

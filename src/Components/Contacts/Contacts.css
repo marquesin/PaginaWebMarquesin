@@ -20,7 +20,7 @@
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    border: solid;
+    /* border: solid; */
 }
 .mailtoC{
     background-color: #BE784A;
@@ -31,4 +31,9 @@
 .linkedingC{
     background-color: #D6A18F;
     color: blanchedalmond;
+}
+
+.fotografia{
+    width: 100%;
+    border-radius: 100%;
 }
