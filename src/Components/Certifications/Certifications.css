@@ -4,7 +4,7 @@
     flex-direction: column;   
     align-items: center;  
     background-color: rgba(242, 242, 242, 1);
-    height: 600px;
+    height: 100%;
 }
 .containerCertificacion{
     width: 70%;
@@ -19,31 +19,52 @@
     margin-top: 0;
     padding-top: 5%;
     padding-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
 }
 .listaCertificaciones{
     text-align: left;
     font-weight: 600;
     font-size: 1vw;
-
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
     /* height: 5vw; */
 
 }
 .itemListaCe{
     /* border: solid; */
-    height: 3vw;
+    width: 80%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
  } 
+
+ .iconCertificaciones{
+     width: 80px;
+     /* height: 150px; */
+     /* height: 100%; */
+ }
+ .iconCertificacionesG{
+     width: 100px;
+ }
 
 
 /* --------------DESCARGAR CV --------------------- */
 .containerCV{
-    height: 159px;
+    height: 200px;
     background-color: rgba(78, 101, 91, 1);
-    margin-top: -55px;
+    /* margin-top: -55px; */
     /* margin-top: 0; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    /* padding-bottom: 1%; */
 }
 .titleCV{
     color: rgba(255, 255, 255, 1);

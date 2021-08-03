@@ -1,38 +1,107 @@
 import React from "react";
 import "./Proyects.css";
-import pod from "./images/proyectoPod.png";
-import gifos from "./images/proyectoGifos.png";
-import hoteles from "./images/proyectoHoteles.png";
-import store from "./images/proyectoStore.png";
-import petro from "./images/proyectoPetro.png";
-
+import gitRepo from "./images/github-square-brands.svg";
+import link from "./images/link-solid.svg";
 export default function Proyects() {
   return (
     <section className="containerProyects" id="Proyectos">
       <div className="containerAboluteProyects">
         <h2 className="titleProyects">Proyectos</h2>
         <div className="proyecFila1">
-          <img
-            src={petro}
-            alt="Imagen de proyecto Pagina empresarial"
-            className="imagePetro"
-          />
-          <img
-            src={store}
-            alt="Imagen proyecto tienda de beneficios"
-            className="imageStore"
-          />
+          <div className="imagePetro">
+            <button className="buttonRepo">
+              <a
+                href="https://github.com/marquesin/proyectoossipa"
+                target="_blank"
+              >
+                <img
+                  src={gitRepo}
+                  alt="icono repositorio"
+                  className="iconoRepo"
+                />
+              </a>
+            </button>
+          </div>
+          <div className="imageStore">
+            <button className="buttonRepo">
+              <a
+                href="https://github.com/marquesin/store-marquesin-rocio"
+                target="_blank"
+              >
+                <img
+                  src={gitRepo}
+                  alt="icono repositorio"
+                  className="iconoRepo"
+                />
+              </a>
+            </button>
+            <button className="buttonLinkProyect">
+              <a
+                href="https://marquesin.github.io/store-marquesin-rocio/#/"
+                target="_blank"
+              >
+                <img src={link} alt="Icono link" className="iconoRepo" />
+              </a>
+            </button>
+          </div>
         </div>
         <div className="proyecFila2">
-          <img src={pod} alt="Imagen proyecto Podcast" className="imagePod" />
-          <img src={gifos} alt="Imagen proyecto Gifos" className="imageGifos" />
+          <div className="imagePod">
+            <button className="buttonRepo">
+              <a href="https://github.com/marquesin/podcast" target="_blank">
+                <img
+                  src={gitRepo}
+                  alt="icono repositorio"
+                  className="iconoRepo"
+                />
+              </a>
+            </button>
+            <button className="buttonLinkProyect">
+              <a href="https://podcastmarquesin.netlify.app/" target="_blank">
+                <img src={link} alt="Icono link" className="iconoRepo" />
+              </a>
+            </button>
+          </div>
+          <div className="imageGifos">
+            <button className="buttonRepo">
+              <a
+                href="https://github.com/marquesin/BuscadorDeGifs"
+                target="_blank"
+              >
+                <img
+                  src={gitRepo}
+                  alt="icono repositorio"
+                  className="iconoRepo"
+                />
+              </a>
+            </button>
+            <button className="buttonLinkProyect">
+              <a href="https://bd9i0.csb.app/" target="_blank">
+                <img src={link} alt="Icono link" className="iconoRepo" />
+              </a>
+            </button>
+          </div>
         </div>
         <div className="proyecFila3">
-          <img
-            src={hoteles}
-            alt="Imagen proyecto Hoteles"
-            className="imageHoteles"
-          />
+          <div className="imageHoteles">
+            <button className="buttonRepo">
+              <a
+                href="https://github.com/marquesin/reserva_alojamientos"
+                target="_blank"
+              >
+                <img
+                  src={gitRepo}
+                  alt="icono repositorio"
+                  className="iconoRepo"
+                />
+              </a>
+            </button>
+            <button className="buttonLinkProyect">
+              <a href="https://dt143.csb.app/" target="_blank">
+                <img src={link} alt="Icono link" className="iconoRepo" />
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </section>

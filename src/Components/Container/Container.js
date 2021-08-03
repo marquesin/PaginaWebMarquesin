@@ -12,8 +12,8 @@ export default function Container() {
       <Header />
       <Home />
       <Proyects />
-      <Certifications />
       <Skills />
+      <Certifications />
       <Contacts />
       <Footer />
     </div>

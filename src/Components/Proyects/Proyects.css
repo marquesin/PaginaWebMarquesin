@@ -23,25 +23,15 @@
     padding-bottom: 2%;
     z-index: 15;
 }
-.imagePetro{
+/* .imagePetro{
     width: 50%;
-}
+} */
 
-.imageStore {
-    width: 35%;
-}
 
-.imagePod {
-    width: 40%;
-}
 
-.imageHoteles {
-    width: 40%;
-}
 
-.imageGifos {
-   width: 50%;
-}
+
+
 
 /* .imageStore,
 .imagePod,
@@ -52,18 +42,115 @@
 
 .proyecFila1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .proyecFila2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
     margin-top: 5%;
 }
 
 .proyecFila3 {
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
 
+}
+/* .buttonRepo{
+
+    position: relative;
+    top: 50%;
+} */
+.imagePetro{
+    background-image: url(./images/proyectoPetro.png) ;
+    background-size: cover;
+    width: 50%;
+    height: 15vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.imageStore {
+    width: 35%;
+    height: 10vw;
+    background-size: cover;
+    background-image: url(./images/proyectoStore.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.imagePod {
+    width: 40%;
+    height: 14vw;
+    background-size: cover;
+    background-image: url(./images/proyectoPod.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.imageHoteles {
+    width: 40%;
+    height: 14vw;
+    background-size: cover;
+    background-image: url(./images/proyectoHoteles.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.imageGifos {
+   width: 50%;
+   height: 15vw;
+   background-size: cover;
+   background-image: url(./images/proyectoGifos.png);
+   display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.buttonRepo, .buttonLinkProyect{
+    border: none;
+    font-weight: 600;
+    /* width: 50px;
+    height: 50px; */
+    background-color: rgba(222, 179, 127, 1);  
+    /* border: solid; */
+}
+.buttonRepo:hover, .buttonLinkProyect:hover{
+    /* background-color: black; */
+    /* color: whitesmoke; */
+    /* color: rgba(222, 179, 127, 1) !important; */
+    cursor: pointer;
+    /* transition: background-color 2s ; */
+    /* transition: color 1s ; */
+    transition: transform 2s ;
+    transform: scaleX(1.3) scaleY(1.3);
+}
+.buttonRepo:not(:hover), .buttonLinkProyect:not(:hover){
+    transition: background-color 2s ;
+    transition: color 1s ;
+    transition: transform 2s;
+}
+
+
+.imagePetro:hover, .imageGifos:hover, .imageHoteles:hover, .imagePod:hover, .imageStore:hover{
+    filter: sepia(100%);
+    transition: filter 2s ;
+}
+
+.imagePetro:not(:hover), .imageGifos:not(:hover), .imageHoteles:not(:hover), .imagePod:not(:hover), .imageStore:not(:hover){
+    transition: filter 2s ;
+
+}
+.iconoRepo{
+    width: 40px;
+    height: 100%;
 }
