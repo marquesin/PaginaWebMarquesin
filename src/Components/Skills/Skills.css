@@ -2,31 +2,64 @@
     background-color: rgba(242, 242, 242, 1);
     opacity: 1;
     /* margin-top: -2%; */
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction:row
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteinerItemsPro{
-    width: 35%;
+    width: 80%;
     text-align: left;
     height: 100%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .conteinerItemsOtros{
-    width: 35%;
+    width: 80%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .itemConocimientoTitle{
-    text-align: left;
     font-size: 3vw;
     font-weight: 400;
     margin-top: 0;
     padding-top: 5%;
     padding-bottom: 1%;
     text-decoration: underline;
+    width: 70%;
+}
+.containerCategoriaLaptop{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    border: solid gainsboro 2px;
+    /* background-color:floralwhite; */
+    margin: 2%;
+}
+.containerCategoriaLaptopOtros{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border: solid gainsboro 2px;
+    /* background-color:floralwhite; */
+    margin: 2%;
+    
+}
+.containerLaptop{
+    width: 50%;
+    border-right: solid rgba(222, 179, 127, 1) 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .itemConocimiento{
@@ -35,20 +68,38 @@ font-weight: 600;
 font-size: 1vw;
 }
 .conteinerItemConocimiento{
-    height: 100%;
     display: flex;
-    padding-top: 4%;
-    padding-bottom: 4%;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+}
+.containerSkillsConocimiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3%;
+}
+.containerOtrosConocimiento{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin: 4%;
 }
 .iconSkills{
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-right: 5%;
 }
 .iconSkillsG{
     width: 90px;
     height: 90px;
     padding-right: 10% ;
+}
+.laptopIcon{
+    width: 100px;
+    height: 100px;
 }

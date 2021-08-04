@@ -1,20 +1,18 @@
 import React from "react";
 import "./Certifications.css";
-import vector5 from "./images/Vector5.svg";
-import cv from "./CV_Marquesin_Rocio.pdf";
+import cv from "./images/CV_Marquesin_Rocio.pdf";
 import acamica from "./images/acamica.png";
-import escueladev from "./images/escuelaDevR.png";
+import escueladev from "./images/dev.png";
 import certification from "./images/graduation-cap-solid.svg";
-import learning from "./images/linkedin-learning.png";
+import learning from "./images/linkedinLearning.png";
 
 export default function Certifications() {
   return (
     <section className="containerCertification" id="Certificaciones">
       <CV />
-      {/* <img src={vector5} alt="vector5" className="vector5" /> */}
       <div className="containerCertificacion">
         <h3 className="titleCertificacion">
-          Certificación
+          Certificaciones
           <img
             src={certification}
             alt="Logo Certification"
@@ -59,7 +57,7 @@ export default function Certifications() {
               src={learning}
               alt="Logo Learning"
               className="iconCertificaciones"
-            />{" "}
+            />
             Curso Linkedin
           </p>
         </div>

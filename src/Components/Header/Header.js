@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import linkedin from "./images/linkedin-in-brands.svg";
 import mail from "./images/envelope-regular.svg";
-import cv from "./CVRocioMarquesin.pdf";
+import cv from "./images/CV_Marquesin_Rocio.pdf";
 import bar from "./images/bars-solid.svg";
 
 export default function Header() {

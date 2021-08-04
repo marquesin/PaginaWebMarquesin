@@ -5,6 +5,7 @@
     align-items: center;  
     background-color: rgba(242, 242, 242, 1);
     height: 100%;
+    padding-bottom: 5%;
 }
 .containerCertificacion{
     width: 70%;
@@ -40,17 +41,19 @@
     width: 80%;
     height: 5vw;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items:center;
+    justify-content: flex-start;
  } 
 
  .iconCertificaciones{
      width: 80px;
      /* height: 150px; */
      /* height: 100%; */
+     margin-right: 5%;
  }
  .iconCertificacionesG{
      width: 100px;
+     
  }
 
 
