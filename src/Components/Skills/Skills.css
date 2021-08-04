@@ -97,9 +97,50 @@ font-size: 1vw;
 .iconSkillsG{
     width: 90px;
     height: 90px;
-    padding-right: 10% ;
+    padding-right: 5% ;
+    margin-bottom: -1%;
 }
 .laptopIcon{
     width: 100px;
     height: 100px;
+}
+
+@media screen and (max-width:1220px) {
+    .iconSkillsG{
+        width: 40px;
+        padding-right:5% ;
+        height: auto;
+        margin-bottom: -2%;
+    }
+    .itemConocimientoTitle{
+        font-size: 30px;
+    }
+    .containerCategoriaLaptop{
+        width: 80%;
+    }
+    .containerLaptop{
+        text-align: center;
+    }
+    .laptopIcon{
+        width: 40px;
+    }
+    .conteinerItemConocimiento{
+        flex-direction: column;
+    }
+    .iconSkills{
+        width: 30px;
+    }
+    .itemConocimiento{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .conteinerItemsPro{
+        flex-direction: row;
+    }
+    .containerCategoriaLaptop{
+        width: 35%;
+    }
 }

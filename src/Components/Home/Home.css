@@ -69,3 +69,47 @@
 .gif{
     width: 600px;
 }
+
+@media screen and (max-width:1220px) {
+    .home{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerPresentacion{
+        width: 80%;
+        margin-top: -35%;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .containerFoto{
+        width: 80%;
+        margin-top: 0%;
+    }
+    .gif{
+        width: 300px;
+    }
+    .parraHome {
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .home{
+        flex-direction: row;
+        justify-content: center;
+    }
+.containerPresentacion{
+    margin-top: 1%;
+    width: 40%;
+}
+.containerFoto{
+    width: 40%;
+    margin-top: 2%;
+    justify-content: flex-end;
+}
+}
+
+

@@ -14,15 +14,16 @@
     flex-direction: column;
 }
 .titleCertificacion{
-    text-align: left;
+    text-align: center;
     font-size: 3vw;
     font-weight: 400;
     margin-top: 0;
     padding-top: 5%;
     padding-bottom: 1%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-decoration: underline;
+    align-items: center;
 }
 .listaCertificaciones{
     text-align: left;
@@ -53,6 +54,7 @@
  }
  .iconCertificacionesG{
      width: 100px;
+     padding-right: 5%;
      
  }
 
@@ -79,4 +81,37 @@
     height: 50px;
     font-weight:400;
     font-size: 15px;
+}
+
+@media screen and (max-width:1220px) {
+    .titleCertificacion{
+        font-size: 30px;
+    }
+    .iconCertificacionesG{
+        width: 40px;
+    }
+    .iconCertificaciones{
+        width: 40px;
+    }
+    .itemListaCe{
+        font-size: 12px;
+        padding: 5% 0 5% 0;
+    }
+    .containerCV{
+        height: auto;
+        padding: 10% 0 10% 0;
+    }
+    .titleCV{
+        margin-top: 0;
+    }
+    
+    .buttonCV{
+        width: 80%;
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .itemListaCe{
+        font-size: 15px;
+    }
 }

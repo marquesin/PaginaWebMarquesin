@@ -1,15 +1,15 @@
 .containerProyects {
     background-color: rgba(222, 179, 127, 1);
     height: 1050px;
-    z-index: 100;
+    /* z-index: 100; */
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .containerAboluteProyects{
-    position: absolute;
+    /* position: absolute; */
     height: 1050px;
-    z-index: 100;
+    /* z-index: 100; */
     width: 70%;
     
 }
@@ -21,25 +21,8 @@
     margin-top: 0;
     padding-top: 5%;
     padding-bottom: 2%;
-    z-index: 15;
+    /* z-index: 15; */
 }
-/* .imagePetro{
-    width: 50%;
-} */
-
-
-
-
-
-
-
-/* .imageStore,
-.imagePod,
-.imageHoteles,
-.imageGifos {
-    margin: auto;
-} */
-
 .proyecFila1 {
     display: flex;
     justify-content: space-between;
@@ -59,11 +42,7 @@
     justify-content: center;
 
 }
-/* .buttonRepo{
 
-    position: relative;
-    top: 50%;
-} */
 .imagePetro{
     background-image: url(./images/proyectoPetro.png) ;
     background-size: cover;
@@ -153,4 +132,45 @@
 .iconoRepo{
     width: 40px;
     height: 100%;
+}
+
+@media screen and (max-width:1220px) {
+    .containerProyects{
+        height: auto;
+    }
+    .containerAboluteProyects{
+        height: auto;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    .proyecFila1, .proyecFila2{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagePetro, .imageStore, .imagePod, .imageGifos, .imageHoteles{
+        width: 80%;
+        height: 40vw;
+        background-size: contain;
+    }
+    .imagePetro,.imagePod{
+        margin-bottom: 5%;
+    }
+    .iconoRepo{
+        width: 30px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .proyecFila1, .proyecFila2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .containerAboluteProyects{
+        width: 70%;
+    }
+    .imagePetro, .imageStore, .imagePod, .imageGifos, .imageHoteles{
+        width: 40%;
+        height: 100px;
+        background-size: cover;
+    }
 }

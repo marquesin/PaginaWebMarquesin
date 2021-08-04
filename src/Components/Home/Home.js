@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className="home" id="Home">
       <div className="containerPresentacion">
-        <h1 className="titleHome">Hola! Yo soy Rocio</h1>
+        <h1 className="titleHome">Hola! Soy Rocio</h1>
         <p className="parraHome">
           Soy Rocio y soy desarrolladora Front End. Siempre me gustó la
           tecnología y desde que me metí en este mundo no dejo de aprender cosas
@@ -34,3 +34,13 @@ export default function Home() {
     </section>
   );
 }
+
+let se = setTimeout(() => {
+  return console.log(
+    setTimeout(() => {
+      return console.log("hola");
+    }, 5000)
+  );
+}, 5000);
+
+// console.log(se);

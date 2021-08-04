@@ -12,12 +12,12 @@ export default function Certifications() {
       <CV />
       <div className="containerCertificacion">
         <h3 className="titleCertificacion">
-          Certificaciones
           <img
             src={certification}
             alt="Logo Certification"
             className="iconCertificacionesG"
           />
+          Certificaciones
         </h3>
         <div className="listaCertificaciones">
           <p className="itemListaCe">
