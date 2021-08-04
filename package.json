@@ -1,5 +1,6 @@
 {
   "name": "pagina-marquesin",
+  "homepage": "http://marquesin.com.ar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
