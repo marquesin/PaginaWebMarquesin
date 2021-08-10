@@ -1,6 +1,6 @@
 .containerProyects {
     background-color: rgba(222, 179, 127, 1);
-    height: 1050px;
+    height: 100%;
     /* z-index: 100; */
     width: 100%;
     display: flex;
@@ -8,9 +8,10 @@
 }
 .containerAboluteProyects{
     /* position: absolute; */
-    height: 1050px;
+    height: auto;
     /* z-index: 100; */
     width: 70%;
+    padding-bottom: 5%;
     
 }
 

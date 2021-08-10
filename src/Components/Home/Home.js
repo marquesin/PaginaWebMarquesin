@@ -34,13 +34,3 @@ export default function Home() {
     </section>
   );
 }
-
-let se = setTimeout(() => {
-  return console.log(
-    setTimeout(() => {
-      return console.log("hola");
-    }, 5000)
-  );
-}, 5000);
-
-// console.log(se);

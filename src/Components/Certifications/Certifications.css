@@ -57,7 +57,12 @@
      padding-right: 5%;
      
  }
-
+.certificados{
+        margin-left: 35%;
+        /* color: rgba(222, 179, 127, 1); */
+        width: 40px;
+        height: 40px;
+    }
 
 /* --------------DESCARGAR CV --------------------- */
 .containerCV{
@@ -97,6 +102,7 @@
         font-size: 12px;
         padding: 5% 0 5% 0;
     }
+    
     .containerCV{
         height: auto;
         padding: 10% 0 10% 0;

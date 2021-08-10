@@ -38,10 +38,10 @@ export default function Header() {
           >
             <img src={linkedin} alt="Icono Linkeding" className="icon" />
           </a>
-          <a href="mailto:marquesinro@gmail.com" target="_blank">
-            {" "}
+          <a href="mailto:marquesinro@gmail.com">
             <img src={mail} alt="Icono Mail" className="icon" />
           </a>
+
           <a href={cv} download="CV_Marquesin_Rocio" target="_blank">
             <div className="buttonCVH">CV</div>
           </a>
@@ -61,7 +61,10 @@ export default function Header() {
         </div>
       </header>
       {hamburguesa ? (
-        <div className="hamburgesaDesplegable">
+        <div
+          className="hamburgesaDesplegable"
+          onClick={() => setHamburgesa(!hamburguesa)}
+        >
           <div className="containerAnchorsHamburguesa">
             <p>
               <a href="#Home">Home</a>

@@ -5,6 +5,11 @@ import acamica from "./images/acamica.png";
 import escueladev from "./images/dev.png";
 import certification from "./images/graduation-cap-solid.svg";
 import learning from "./images/linkedinLearning.png";
+import iconCertificado from "./images/file-pdf-solid.svg";
+import cAcamica from "./Certificaciones/Certificación DWFE Rocio Melina Marquesin.pdf";
+import cDevJS from "./Certificaciones/DevRockCertificajs .pdf";
+import CDevRJS from "./Certificaciones/DevRockCertifica-react.pdf";
+import CMySQL from "./Certificaciones/CertificadoDeFinalizacion_MySQL esencial.pdf";
 
 export default function Certifications() {
   return (
@@ -27,7 +32,15 @@ export default function Certifications() {
               className="iconCertificaciones"
             />
             Desarrollo Front-End ACAMICA
+            <a href={cAcamica} target="_blank">
+              <img
+                src={iconCertificado}
+                alt="Icono de certificado"
+                className="certificados"
+              />
+            </a>
           </p>
+
           <p className="itemListaCe">
             <img
               src={escueladev}
@@ -35,6 +48,13 @@ export default function Certifications() {
               className="iconCertificaciones"
             />
             JAVASCRIPT EscuelaDevRock
+            <a href={cDevJS} target="_blank">
+              <img
+                src={iconCertificado}
+                alt="Icono de certificado"
+                className="certificados"
+              />
+            </a>
           </p>
           <p className="itemListaCe">
             <img
@@ -42,7 +62,14 @@ export default function Certifications() {
               alt="Logo Escuela Dev Rock"
               className="iconCertificaciones"
             />{" "}
-            ReactJS EscuelaDevRock{" "}
+            ReactJS EscuelaDevRock
+            <a href={CDevRJS} target="_blank">
+              <img
+                src={iconCertificado}
+                alt="Icono de certificado"
+                className="certificados"
+              />
+            </a>
           </p>
           <p className="itemListaCe">
             <img
@@ -58,7 +85,14 @@ export default function Certifications() {
               alt="Logo Learning"
               className="iconCertificaciones"
             />
-            Curso Linkedin
+            MySQL esencial
+            <a href={CMySQL} target="_blank">
+              <img
+                src={iconCertificado}
+                alt="Icono de certificado"
+                className="certificados"
+              />
+            </a>
           </p>
         </div>
       </div>
