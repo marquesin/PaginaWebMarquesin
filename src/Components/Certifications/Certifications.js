@@ -10,6 +10,7 @@ import cAcamica from "./Certificaciones/Certificación DWFE Rocio Melina Marques
 import cDevJS from "./Certificaciones/DevRockCertificajs .pdf";
 import CDevRJS from "./Certificaciones/DevRockCertifica-react.pdf";
 import CMySQL from "./Certificaciones/CertificadoDeFinalizacion_MySQL esencial.pdf";
+import cDevFirebase from "./Certificaciones/DevRockCertifica-firebase.pdf";
 
 export default function Certifications() {
   return (
@@ -78,6 +79,13 @@ export default function Certifications() {
               className="iconCertificaciones"
             />{" "}
             FireBase EscuelaDevRock
+            <a href={cDevFirebase} target="_blank">
+              <img
+                src={iconCertificado}
+                alt="Icono de certificado"
+                className="certificados"
+              />
+            </a>
           </p>
           <p className="itemListaCe">
             <img
