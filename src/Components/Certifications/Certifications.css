@@ -1,19 +1,21 @@
-.containerCertification{
+.containerCertification {
     display: flex;
-    justify-content: center;   
-    flex-direction: column;   
-    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(242, 242, 242, 1);
     height: 100%;
     padding-bottom: 5%;
 }
-.containerCertificacion{
+
+.containerCertificacion {
     width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.titleCertificacion{
+
+.titleCertificacion {
     text-align: center;
     font-size: 3vw;
     font-weight: 400;
@@ -25,7 +27,8 @@
     text-decoration: underline;
     align-items: center;
 }
-.listaCertificaciones{
+
+.listaCertificaciones {
     text-align: left;
     font-weight: 600;
     font-size: 1vw;
@@ -37,35 +40,57 @@
     /* height: 5vw; */
 
 }
-.itemListaCe{
+
+.itemListaCe {
     /* border: solid; */
     width: 80%;
-    height: 5vw;
+    height: 100%;
     display: flex;
-    align-items:center;
-    justify-content: flex-start;
- } 
+    align-items: center;
+    /* justify-content: start; */
+    border: solid gainsboro 2px;
+    /* flex-direction: column; */
+}
 
- .iconCertificaciones{
-     width: 80px;
-     /* height: 150px; */
-     /* height: 100%; */
-     margin-right: 5%;
- }
- .iconCertificacionesG{
-     width: 100px;
-     padding-right: 5%;
-     
- }
-.certificados{
-        margin-left: 35%;
-        /* color: rgba(222, 179, 127, 1); */
-        width: 40px;
-        height: 40px;
-    }
+.liCursos {
+    border-left: solid rgba(222, 179, 127, 1) 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.itemCurso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 4% 2% 2%;
+
+}
+
+.iconCertificaciones {
+    width: 80px;
+    /* height: 150px; */
+    /* height: 100%; */
+    margin: 5%;
+}
+
+.iconCertificacionesG {
+    width: 100px;
+    padding-right: 5%;
+
+}
+
+.certificados {
+    margin-left: 35%;
+    /* color: rgba(222, 179, 127, 1); */
+    width: 40px;
+    height: 40px;
+}
 
 /* --------------DESCARGAR CV --------------------- */
-.containerCV{
+.containerCV {
     height: 200px;
     background-color: rgba(78, 101, 91, 1);
     /* margin-top: -55px; */
@@ -76,48 +101,68 @@
     width: 100%;
     /* padding-bottom: 1%; */
 }
-.titleCV{
+
+.titleCV {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 20px;
 }
-.buttonCV{
+
+.buttonCV {
     width: 350px;
     height: 50px;
-    font-weight:400;
+    font-weight: 400;
     font-size: 15px;
 }
 
 @media screen and (max-width:1220px) {
-    .titleCertificacion{
+    .itemListaCe {
+        width: 90%;
+    }
+
+    .titleCertificacion {
         font-size: 30px;
     }
-    .iconCertificacionesG{
+
+    .iconCertificacionesG {
         width: 40px;
     }
-    .iconCertificaciones{
+
+    .iconCertificaciones {
         width: 40px;
     }
-    .itemListaCe{
-        font-size: 12px;
+
+    .certificados {
+        width: 25px;
+        height: 25px;
+    }
+
+    .itemListaCe {
+        font-size: 10px;
         padding: 5% 0 5% 0;
     }
-    
-    .containerCV{
+
+    .itemCurso {
+        margin: 2% 8% 2% 8%;
+    }
+
+    .containerCV {
         height: auto;
         padding: 10% 0 10% 0;
     }
-    .titleCV{
+
+    .titleCV {
         margin-top: 0;
     }
-    
-    .buttonCV{
+
+    .buttonCV {
         width: 80%;
         padding-bottom: 0;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width:1024px) {
-    .itemListaCe{
+    .itemListaCe {
         font-size: 15px;
     }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import linkedin from "./images/linkedin-in-brands.svg";
 import mail from "./images/envelope-regular.svg";
-import cv from "./images/CV_Marquesin_Rocio.pdf";
+import cv from "./images/CurriculumVitaeMarquesinRocio.pdf";
 import bar from "./images/bars-solid.svg";
 import iconRm from "./images/favicon.ico";
 
